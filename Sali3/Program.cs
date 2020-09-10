@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Sali3
 {
@@ -6,7 +7,11 @@ namespace Sali3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Testataan Henkilo-olion luontia");
+
+            // Testataan oletusmuodostin
+
+            Henkilo henkilo = new Henkilo();
         }
     }
 }
